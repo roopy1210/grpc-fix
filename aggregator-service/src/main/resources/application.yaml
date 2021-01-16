@@ -1,0 +1,10 @@
+server:
+  port: 9090
+grpc:
+  client:
+    user-service:
+      address: static://localhost:6565
+      negotiationType: plaintext
+    movie-service:
+      address: static://localhost:7575
+      negotiationType: plaintext
